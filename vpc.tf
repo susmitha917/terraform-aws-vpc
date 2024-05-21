@@ -134,6 +134,8 @@ resource "aws_route_table" "database" {
 }
 
 
+
+
 #### Routes ####
 resource "aws_route" "public_route" {
   route_table_id            = aws_route_table.public.id
